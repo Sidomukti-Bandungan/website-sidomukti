@@ -29,43 +29,101 @@ body {
   z-index: 100;
 }
 
-.logo {
+/* ======== TOPBAR ======== */
+.topbar {
+  background: #0c8f1d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 40px;
+  font-size: 14px;
+}
+
+.topbar-left span {
+  margin-right: 20px;
+}
+
+.topbar-right a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* ======== HEADER MAIN ======== */
+.header-main {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-area {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
-.logo img {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
+.logo-area img {
+  width: 60px;
 }
 
-.logo-text h1 {
-  font-size: 18px;
+.logo-area h1 {
   margin: 0;
-  color: var(--primary);
+  font-size: 20px;
+  color: #007a14;
 }
 
-.logo-text p {
-  font-size: 12px;
-  color: gray;
+.logo-area p {
   margin: 0;
+  font-size: 13px;
+  color: #444;
+}
+
+/* Search box */
+.searchbox {
+  display: flex;
+  gap: 5px;
+}
+
+.searchbox input {
+  padding: 7px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.searchbox button {
+  padding: 7px 10px;
+  border: none;
+  background: #007a14;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.navbar {
+  background: #0c8f1d;
+  padding: 0 40px;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 25px;
+  flex-wrap: wrap;       /* === 2 BARIS === */
+  gap: 15px 25px;
   margin: 0;
-  padding: 0 60px 0 0;
-  justify-content: flex-end;
+  padding: 12px 0;
 }
 
 .navbar a {
+  color: white;
   text-decoration: none;
-  color: var(--text);
   font-weight: 600;
-  transition: 0.3s;
+  padding: 6px 4px;
+  display: inline-block;
 }
 
 .navbar a:hover,
@@ -218,6 +276,75 @@ body {
   100% {
     background-image: url('images/Hero/Hero4.jpg');
   }
+}
+
+/* ====== APBDES GRID ====== */
+.apbdes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 22px;
+}
+
+/* ====== CARD STYLE MIRIP GAMBAR ====== */
+.apbdes-card {
+    background: #ffffff;
+    padding: 18px 20px;
+    border-radius: 14px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.10);
+    border: 1px solid #e4e9f2;
+}
+
+.apbdes-card h3 {
+    margin: 0 0 16px 0;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1c732f;
+    border-bottom: 2px dashed #1c732f;
+}
+
+/* ====== ROW ITEM ====== */
+.row {
+    margin-bottom: 22px;
+}
+
+.row label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Angka kiri & kanan */
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: 6px 0 6px;
+    color: #222;
+}
+
+/* ====== PROGRESS BAR ====== */
+.progress {
+    width: 100%;
+    background: #d7e6d8;
+    border-radius: 50px;
+    height: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress div {
+    height: 100%;
+    background: linear-gradient(90deg, #1e972d, #11731c);
+    border-radius: 50px;
+}
+
+/* Persentase */
+.percent {
+    font-size: 12px;
+    font-weight: 700;
+    color: #207c2d;
+    margin-top: 5px;
 }
 
 #visimisi {

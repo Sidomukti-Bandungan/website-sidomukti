@@ -8,23 +8,11 @@
 }
 
 body {
-    background: #eef3f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.logo-container {
-    text-align: center;
-}
-
-.logo {
-    width: 350px;      /* ubah ukuran di sini (misal 150px / 200px) */
-    height: auto;
-}
-
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: var(--text);
+  background: var(--background);
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -75,11 +63,11 @@ body {
 .logo-area {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
 }
 
 .logo-area img {
-  width: 10px;
+  width: 15px;
 }
 
 .logo-area h1 {
@@ -1399,6 +1387,3 @@ footer {
   overflow: hidden;
   display: block;
 }
-
-
-

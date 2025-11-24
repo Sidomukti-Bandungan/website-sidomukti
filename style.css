@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-    width: 250px;      /* ubah ukuran di sini (misal 150px / 200px) */
+    width: 350px;      /* ubah ukuran di sini (misal 150px / 200px) */
     height: auto;
 }
 
@@ -1399,5 +1399,6 @@ footer {
   overflow: hidden;
   display: block;
 }
+
 
 

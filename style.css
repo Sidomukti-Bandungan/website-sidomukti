@@ -8,23 +8,11 @@
 }
 
 body {
-    background: #eef3f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.logo-container {
-    text-align: center;
-}
-
-.logo {
-    width: 250px;      /* ubah ukuran di sini (misal 250px / 450px) */
-    height: auto;
-}
-
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: var(--text);
+  background: var(--background);
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -1399,5 +1387,3 @@ footer {
   overflow: hidden;
   display: block;
 }
-
-

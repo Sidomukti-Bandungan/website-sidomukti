@@ -41,13 +41,13 @@ body {
 }
 
 .logo-text h1 {
-  font-size: 24px;
+  font-size: 40px;
   margin: 0;
   color: var(--primary);
 }
 
 .logo-text p {
-  font-size: 20px;
+  font-size: 30px;
   color: gray;
   margin: 0;
 }
@@ -1260,4 +1260,5 @@ footer {
   overflow: hidden;
   display: block;
 }
+
 

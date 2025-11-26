@@ -1,14 +1,14 @@
 :root {
-  --primary: #1A3D64;
-  --secondary: #1D546C;
+  --primary: #080808;
+  --secondary: #000000;
   --light-blue: #bbdefb;
-  --background: #f0f6fa;
-  --text: #333;
-  --white: #fff;
+  --background: #4097c9;
+  --text: #030303;
+  --white: #c0a31f;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Bookman Old Style;
   margin: 0;
   color: var(--text);
   background: var(--background);
@@ -41,14 +41,14 @@ body {
 }
 
 .logo-text h1 {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
   color: var(--primary);
 }
 
 .logo-text p {
-  font-size: 12px;
-  color: gray;
+  font-size: 14px;
+  color: rgb(7, 7, 7);
   margin: 0;
 }
 
@@ -1260,6 +1260,3 @@ footer {
   overflow: hidden;
   display: block;
 }
-
-
-
